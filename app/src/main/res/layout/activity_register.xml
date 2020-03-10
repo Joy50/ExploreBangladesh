@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/loginscreen"
+    tools:context=".RegisterActivity">
+
+    <EditText
+        android:id="@+id/editText3"
+        android:layout_width="260dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="237dp"
+        android:background="@drawable/roundedittext"
+        android:ems="10"
+        android:hint="Enter Your email"
+        android:inputType="textEmailAddress"
+        android:paddingLeft="20dp"
+        android:fontFamily="cursive"
+        android:textAppearance="@android:style/TextAppearance"
+        tools:layout_editor_absoluteX="84dp"
+        tools:layout_editor_absoluteY="248dp" />
+
+    <EditText
+        android:id="@+id/editText4"
+        android:layout_width="260dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="161dp"
+        android:background="@drawable/roundedittext"
+        android:ems="10"
+        android:hint="Enter A password"
+        android:inputType="textPassword"
+        android:fontFamily="cursive"
+        android:textAppearance="@android:style/TextAppearance"
+        android:paddingLeft="20dp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="103dp"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/editText3"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="92dp"
+        android:background="@drawable/roundbutton"
+        android:fontFamily="cursive"
+        android:text="Register"
+        android:textAppearance="@android:style/TextAppearance"
+        android:textColor="#FFFF" />
+
+    <ProgressBar
+        android:id="@+id/progressBar2"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="189dp" />
+
+    <Switch
+        android:id="@+id/switch2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="96dp"
+        android:text="Register"
+        android:fontFamily="cursive"
+        android:textAppearance="@android:style/TextAppearance"
+        android:textColor="@color/colorAccent"
+        android:textStyle="bold"/>
+</RelativeLayout>

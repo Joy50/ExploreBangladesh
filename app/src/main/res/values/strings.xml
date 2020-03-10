@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">Explore Bangladesh</string>
+    <string name="title_activity_main_menu">MainMenu</string>
+    <string name="title_section1">Section 1</string>
+    <string name="title_section2">Section 2</string>
+    <string name="title_section3">Section 3</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_example">Example action</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="nameofbd">Bangladesh</string>
+    <string name="fullname">Full Name: The Peoples Republic of Bangladesh (গণপ্রজাতন্ত্রী বাংলাদেশ)</string>
+    <string name="vasa">Mother Toungh: Bangla</string>
+    <string name="hvasa">The Nation fought for their language in 1952</string>
+    <string name="libwar">Libaration War 1971</string>
+    <string name="tiger">The Home Of Royal Bangal Tiger</string>
+    <string name="mojibur">The father of the Nation </string>
+    <string name="nearby">Near By</string>
+    <string name="allplaces">All turist Spots</string>
+    <string name="search">Search</string>
+    <string name="abtbangladesh">About Bangladesh</string>
+    <string name="planatrip">plan a trip</string>
+    <string name="choosearea">Choose Your Area</string>
+    <string name="dhaka">Dhaka</string>
+    <string name="Chittagong">Chittagong</string>
+    <string name="Rajshahi">Rajshahi</string>
+    <string name="Khulna">Khulna</string>
+    <string name="Barisal">Barisal</string>
+    <string name="Sylhet">Sylhet</string>
+    <string name="Rangpur">Rangpur</string>
+    <string name="Mymanshing">Mymanshing</string>
+    <string name="name">Name of places</string>
+</resources>

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity"
+    android:background="@drawable/loginscreen">
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="260dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="241dp"
+        android:background="@drawable/roundedittext"
+        android:ems="10"
+        android:hint="Enter Your Email"
+        android:fontFamily="cursive"
+        android:textAppearance="@android:style/TextAppearance"
+        android:inputType="textEmailAddress"
+        android:textColorHint="#000000"
+        android:paddingLeft="20dp"
+        tools:layout_editor_absoluteX="84dp"
+        tools:layout_editor_absoluteY="245dp" />
+
+    <EditText
+        android:id="@+id/editText2"
+        android:textColorHint="#000000"
+        android:layout_width="260dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="168dp"
+        android:background="@drawable/roundedittext"
+        android:ems="10"
+        android:fontFamily="cursive"
+        android:textAppearance="@android:style/TextAppearance"
+        android:hint="Enter Your Password"
+        android:inputType="textPassword"
+        android:paddingLeft="20dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="103dp"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/editText"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="97dp"
+        android:background="@drawable/roundbutton"
+        android:fontFamily="cursive"
+        android:text="Login"
+        android:textAppearance="@android:style/TextAppearance"
+        android:textColor="#FFFFFF" />
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_above="@+id/editText"
+        android:layout_centerHorizontal="true" />
+
+    <Switch
+        android:id="@+id/switch1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="31dp"
+        android:layout_marginTop="107dp"
+        android:text="Login"
+        android:fontFamily="cursive"
+        android:textAppearance="@android:style/TextAppearance"
+        android:textColor="@color/colorAccent"
+        android:textStyle="bold"/>
+
+    <Button
+        android:id="@+id/button9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="112dp"
+        android:layout_marginStart="71dp"
+        android:background="@null"
+        android:fontFamily="cursive"
+        android:text="Reset Password"
+        android:textAppearance="@android:style/TextAppearance"
+        android:textColor="#0000FF"
+        android:textColorHint="#000000" />
+
+</RelativeLayout>
